@@ -54,4 +54,25 @@ Scheduler* Processor::getProcessorScheduler(){
   return this.scheduler;
 }
 
+/* Class setters bodies */
+void Processor::setCacheSize(float processorCacheSize){
+  this.processorCacheSize = processorCacheSize;
+}
+
+void Processor::setProcessSize(float processSize){
+  this.processSize = processSize;
+}
+
+void Processor::setClockSpeed(float processorClockSpeed){
+  this.processorClockSpeed = processorClockSpeed;
+}
+
+void Processor::setProcessorName(String processorName){
+  this.processorName = processorName;
+}
+
+void Processor::setProcessorScheduler(String scheduler){
+  this.scheduler = scheduler;
+}
+
 #endif
