@@ -10,4 +10,15 @@ class process {
   // The need of using each processor is stated using an array which is a type of the PROCESSOR
   processor *processorTypes;    // This will be allocated next in the code :D
 
+  // Constructor - No arg
+  public process()
+  {
+    // Default values
+    pID = 0;
+    numOfCycles = 0;
+    timeEntered = 0;
+    processorTypes = new processor();
+  }
+
+  
 }
