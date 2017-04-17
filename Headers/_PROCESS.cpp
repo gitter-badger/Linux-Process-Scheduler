@@ -17,12 +17,16 @@ class process {
     pID = 0;
     numOfCycles = 0;
     timeEntered = 0;
-    processorTypes = new processor();
+    processorTypes = new processor();   // This has to be an array of processors
   }
 
   // Constructor - 4 args
   public process(int pID, int numOfCycles, int timeEntered, processor **processorTypes)
   {
-    
+    this.pID = pID;
+    this.numOfCycles = numOfCycles;
+    this.timeEntered = timeEntered;
+    this.processorTypes = processorTypes;
+    processorTypes = new processor();   // This has to be an array of processors
   }
 }
