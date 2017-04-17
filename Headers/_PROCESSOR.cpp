@@ -20,6 +20,12 @@ public:
   String getProcessorName();
   Scheduler* getProcessorScheduler();
 
+  /* Class setters */
+  void setCacheSize(float);
+  void setProcessSize(float);
+  void setClockSpeed(float);
+  void setProcessorName(String);
+  void setProcessorScheduler(Scheduler*);
 }
 
 /* The vritual constructor must be implemented outside of the main class */
