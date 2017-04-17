@@ -1,7 +1,7 @@
 #ifndef __PROCESS_CPP_
 #define __PROCESS_CPP_
 
-class Process {
+class Process{
 
 private:
   int pID;    // Process ID
