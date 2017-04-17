@@ -30,3 +30,5 @@ class process {
     processorTypes = new processor();   // This has to be an array of processors
   }
 }
+
+#endif
