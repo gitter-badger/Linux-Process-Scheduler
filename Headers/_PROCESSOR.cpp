@@ -11,11 +11,13 @@ private:
 
 
 public:
-  virtual Processor(string processorName, Scheduler *scheduler)    // Implementing the constructor in the abstract class
-  {
-    this.processorName = processorName;
-    this.scheduler = scheduler;
-  }
+  virtual Processor(string, Scheduler);    // Constructor prototype
   virtual ~Processor();   // Virtual class constructor
 
+}
+
+/* The vritual constructor must be implemented outside of the main class */
+Processor::Processor(string processorName, Scheduler *scheduler) {
+  this.processorName = processorName;
+  this.scheduler = scheduler;
 }
