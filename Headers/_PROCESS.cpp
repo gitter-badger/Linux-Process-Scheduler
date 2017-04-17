@@ -8,7 +8,7 @@ class process {
   int timeEntered;    // The time that it has entered to the system
 
   // The need of using each processor is stated using an array which is a type of the PROCESSOR
-  processor *processorTypes;    // This will be allocated next in the code :D
+  processor **processorTypes;    // This will be allocated next in the code :D
 
   // Constructor - No arg
   public process()
@@ -20,5 +20,9 @@ class process {
     processorTypes = new processor();
   }
 
-  
+  // Constructor - 4 args
+  public process(int pID, int numOfCycles, int timeEntered, processor **processorTypes)
+  {
+    
+  }
 }
