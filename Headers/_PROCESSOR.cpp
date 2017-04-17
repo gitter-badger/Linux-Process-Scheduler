@@ -11,5 +11,11 @@ private:
 
 
 public:
+  virtual Processor(string processorName, Scheduler *scheduler)    // Implementing the constructor in the abstract class
+  {
+    this.processorName = processorName;
+    this.scheduler = scheduler;
+  }
   virtual ~Processor();   // Virtual class constructor
+
 }
