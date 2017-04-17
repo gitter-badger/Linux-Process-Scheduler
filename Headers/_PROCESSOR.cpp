@@ -37,4 +37,21 @@ Processor::Processor(float processorCacheSize, float processSize, float processo
   this.scheduler = scheduler;
 }
 
+/* Class getters bodies */
+float Processr::getCacheSize(){
+  return this.processorCacheSize;
+}
+float Processor::getProcessSize(){
+  return this.processSize;
+}
+float Processor::getClockSpeed(){
+  return this.processorClockSpeed;
+}
+String Processor::getProcessorName(){
+  return this.processorName;
+}
+Scheduler* Processor::getProcessorScheduler(){
+  return this.scheduler;
+}
+
 #endif
