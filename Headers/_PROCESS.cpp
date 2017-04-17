@@ -1,5 +1,5 @@
-#ifndef __PROCESS_CPP
-#define __PROCESS_CPP
+#ifndef __PROCESS_CPP_
+#define __PROCESS_CPP_
 
 class process {
 
