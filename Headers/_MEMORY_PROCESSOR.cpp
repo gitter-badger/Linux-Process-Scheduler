@@ -9,4 +9,9 @@ public:
   MemoryProcessor(float processorCacheSize, float processSize, float processorClockSpeed, string processorName, Scheduler *scheduler)
   /* Call the superclass(Processor) constructor */
   :Processor(processorCacheSize, processSize, processorClockSpeed, processorName, scheduler)
+  ~MemoryProcessor() {
+    /* Code Cleanup */
+    /* Memory unallocation */
+  }
+
 }
