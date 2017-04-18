@@ -37,6 +37,11 @@ Processor::Processor(float processorCacheSize, float processSize, float processo
   this.scheduler = scheduler;
 }
 
+Processor:~Processor(){
+  /* Code Cleanup */
+  /* Memory unallocation */
+}
+
 /* Class getters bodies */
 float Processr::getCacheSize(){
   return this.processorCacheSize;
