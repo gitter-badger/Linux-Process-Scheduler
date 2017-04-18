@@ -10,7 +10,7 @@ private:
   Scheduler* scheduler;   // The scheduler which is used in the processor
 
 public:
-  virtual Processor(float, float, float, string, Scheduler);    // Constructor prototype
+  Processor(float, float, float, string, Scheduler);    // Constructor prototype
   virtual ~Processor();   // Virtual class constructor
 
   /* Class getters */
