@@ -21,6 +21,14 @@ public:
   Scheduler(String schedulerName, int processorTimeLimit, int ioTimeLimit, int blockedTimeLimit, int processIntervalRate);
   virtual ~Scheduler();
 
+  /* Class getters */
+  String getSchedulerName();
+  String currentProcessorName();
+  int getProcessoTimeLimit();
+  int getioTimeLimit();
+  int getBlockTimeLimit();
+  int getprocessIntervalRate();
+
   /* Class setters */
   void setSchedulerName(String);
   void setCurrentProcessorName(String);
