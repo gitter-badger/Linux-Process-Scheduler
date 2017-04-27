@@ -11,7 +11,7 @@ private:
 
 public:
   Processor(float, float, float, string, Scheduler);    // Constructor prototype
-  virtual ~Processor();   // Virtual class donstructor
+  virtual ~Processor();   // Virtual class destructor
 
   /* Class getters */
   float getCacheSize();
