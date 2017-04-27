@@ -14,6 +14,8 @@ private:
   /* The process interval rate */
   int processIntervalRate;
 
-
-
+public:
+  /* Constructor prototype */
+  Scheduler(String schedulerName, int processorTimeLimit, int ioTimeLimit, int blockedTimeLimit, int processIntervalRate);
+  virtual ~Scheduler();
 }
