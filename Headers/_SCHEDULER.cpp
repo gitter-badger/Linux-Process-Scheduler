@@ -13,6 +13,8 @@ private:
   int blockedTimeLimit;
   /* The process interval rate */
   int processIntervalRate;
+  /* Current processor name */
+  String currentProcessorName;
 
 public:
   /* Constructor prototype */
