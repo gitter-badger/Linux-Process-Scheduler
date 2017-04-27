@@ -20,6 +20,15 @@ public:
   /* Constructor prototype */
   Scheduler(String schedulerName, int processorTimeLimit, int ioTimeLimit, int blockedTimeLimit, int processIntervalRate);
   virtual ~Scheduler();
+
+  /* Class setters */
+  void setSchedulerName(String);
+  void setCurrentProcessorName(String);
+  void setProcessorTimeLimit(int);
+  void setIoTimeLimit(int);
+  void setBlockTimeLimit(int);
+  void setProcessIntervalRate(int);
+
 }
 
 /* The virtual constructor must be implemented outside of the class */
