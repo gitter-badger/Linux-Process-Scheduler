@@ -9,6 +9,9 @@ private:
   String processorName;   // A name for our processor :D
   Scheduler* scheduler;   // The scheduler which is used in the processor
 
+  /* The dispatcher */
+  bool dispatch();
+
 public:
   Processor(float, float, float, string, Scheduler);    // Constructor prototype
   virtual ~Processor();   // Virtual class destructor
